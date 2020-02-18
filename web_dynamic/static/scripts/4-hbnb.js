@@ -1,7 +1,7 @@
 $(document).ready(function () {
   const amsCheck = {};
   $('.amenities INPUT').change(function () {
-    let $input = $(this);
+    const $input = $(this);
     if ($input.is(':checked')) {
       amsCheck[$input.attr('data-id')] = $input.attr('data-name');
     } else {

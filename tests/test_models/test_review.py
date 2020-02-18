@@ -136,5 +136,6 @@ class TestReviewInstances(unittest.TestCase):
         expected = "This place smells"
         self.assertEqual(expected, actual)
 
+
 if __name__ == '__main__':
     unittest.main
