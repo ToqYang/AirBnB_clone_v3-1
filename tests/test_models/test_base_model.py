@@ -145,6 +145,7 @@ class TestBaseModelInstances(unittest.TestCase):
         actual = self.model.number
         self.assertTrue(98 == actual)
 
+
 if __name__ == '__main__':
     """
     MAIN TESTS
