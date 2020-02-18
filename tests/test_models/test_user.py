@@ -136,5 +136,6 @@ class TestUserInstances(unittest.TestCase):
         expected = "bettyholbertn@gmail.com"
         self.assertEqual(expected, actual)
 
+
 if __name__ == '__main__':
     unittest.main
